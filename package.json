@@ -1,15 +1,25 @@
 {
-  "name": "ts-demo",
+  "name": "typescript-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "使用 TypeScript 完成一些小功能",
   "main": "helloworld.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamqyq/TypeScript-demo.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^10.11.3"
+  "bugs": {
+    "url": "https://github.com/dreamqyq/TypeScript-demo/issues"
+  },
+  "homepage": "https://github.com/dreamqyq/TypeScript-demo#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
   }
 }
